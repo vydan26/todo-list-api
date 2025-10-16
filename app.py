@@ -22,9 +22,10 @@ def create_app():
 
     return app
 
-
+app = create_app() #vratiti u __main ako ne radi
 
 if __name__ == '__main__':
-    app = create_app()
+    
     app.run(debug=True)
     
+
